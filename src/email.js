@@ -26,3 +26,13 @@ if(checkEmail3){
 else{
     console.log("Email is not valid");
 }
+
+//UC4 To validate email with special characters
+let emailRegex1 = RegExp('^[a][b][c][.][a-z_+-]{1,}[@][b][r][i][d][g][e][l][a][b][z][.][c][o][.][a-z]{1,}$');
+let checkEmail4 = emailRegex.test("abc.trust-at@bridgelabz.co.in");
+if(checkEmail4){
+    console.log("Email is valid");
+}
+else{
+    console.log("Email is not valid");
+}
