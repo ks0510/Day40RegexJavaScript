@@ -27,3 +27,14 @@ if(pincodeCheck2){
 else{
     console.log("Pincode is not valid");
 }
+
+//UC4 To pass space in pin code
+let  pincodeRegex1 = RegExp("^[0-9]{3} [0-9]{3}$")
+let pincodeCheck3 = pincodeRegex1.test("400 088");
+
+if(pincodeCheck3){
+    console.log("Pincode is valid");
+}
+else{
+    console.log("Pincode is not valid");
+}
