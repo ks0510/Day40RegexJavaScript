@@ -17,3 +17,12 @@ if(checkEmail2){
 else{
     console.log("Email is not valid");
 }
+
+//UC3 To validate email with . and co part in email
+let checkEmail3 = emailRegex.test("abc.trust@bridgelabz.co.in");
+if(checkEmail3){
+    console.log("Email is valid");
+}
+else{
+    console.log("Email is not valid");
+}
